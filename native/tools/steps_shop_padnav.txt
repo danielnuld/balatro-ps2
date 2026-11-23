@@ -1,0 +1,1 @@
+1250:start:PADSHOP 1600:blind 2100:win 3550:money:30 3590:focus 3640:focus 3690:focus 3740:focus 3790:focus 3840:focus 3890:focus 3940:focus 3990:focus 4040:focus 4090:focus 4140:focus 4190:focus 4240:focus 4290:focus 4340:focus 4390:focus

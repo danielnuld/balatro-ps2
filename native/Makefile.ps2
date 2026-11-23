@@ -1,0 +1,22 @@
+# EE build of the native port; run through build_ps2.sh (it lays the sources out on the WSL disk)
+EE_BIN = balatro.elf
+EE_OBJS = $(patsubst %.c,%.o,$(wildcard src/*.c)) src/irx.o
+# The rules compute in doubles and the EE's FPU is single precision: libgcc's faster soft-float first (as the Lua
+# runtime's Makefile; vendor/soft-fp and docs/perf.md of the repository)
+EE_OBJS += $(patsubst %.c,%.o,$(wildcard softfp/*.c))
+EE_INCS += -Iinclude -I$(GSKIT)/include -I$(PS2SDK)/ports/include
+EE_LDFLAGS += -L$(GSKIT)/lib -L$(PS2SDK)/ports/lib
+EE_CFLAGS += -std=gnu11 -O2 -Wall -Wno-unused -fno-math-errno $(EXTRA)
+softfp/%.o: EE_CFLAGS += -w
+EE_LIBS += -lgskit -ldmakit -lpadx -laudsrv -lcdvd -lmc -lpatches -lz -lm
+
+# The collector does not scan .rodata and the constants up to .sdata (src/gc.c): where they are, for the linker
+EE_LIBS += gc_ee.ld
+$(EE_BIN): gc_ee.ld
+gc_ee.ld:
+	echo 'gc_rodata = ADDR(.rodata); gc_rodata_end = ADDR(.sdata);' > $@
+
+all: $(EE_BIN)
+
+include $(PS2SDK)/samples/Makefile.pref
+include $(PS2SDK)/samples/Makefile.eeglobal

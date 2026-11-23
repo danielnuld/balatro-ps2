@@ -1,0 +1,1 @@
+1250:start:UIRUNPAD 1600:blind 1900:give:j_joker 1902:give:c_fool

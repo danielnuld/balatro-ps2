@@ -1,0 +1,16 @@
+1250:start:PACKS2:8 1600:blind 2100:win 2700:cash 3000:money:500
+3100:shop:p_arcana_normal_1 3160:use:shop_booster:0 3500:dump 3510:hl:hand:1 3512:canuse:pack_cards:1 3514:use:pack_cards:1 3960:dump 4400:skip 4580:dump
+4600:shop:p_arcana_jumbo_1 4660:use:shop_booster:0 5000:dump 5014:skip 5900:skip 6080:dump
+6100:shop:p_arcana_mega_1 6160:use:shop_booster:0 6500:dump 6510:hl:hand:1 6512:canuse:pack_cards:1 6514:use:pack_cards:1 6960:dump 6968:unhl:hand 6970:hl:hand:2 6972:canuse:pack_cards:1 6974:use:pack_cards:1 7400:skip 7580:dump
+7600:shop:p_celestial_normal_1 7660:use:shop_booster:0 8000:dump 8012:canuse:pack_cards:1 8014:use:pack_cards:1 8460:dump 8900:skip 9080:dump
+9100:shop:p_celestial_jumbo_1 9160:use:shop_booster:0 9500:dump 9514:skip 10400:skip 10580:dump
+10600:shop:p_celestial_mega_1 10660:use:shop_booster:0 11000:dump 11012:canuse:pack_cards:1 11014:use:pack_cards:1 11460:dump 11472:canuse:pack_cards:1 11474:use:pack_cards:1 11900:skip 12080:dump
+12100:shop:p_standard_normal_1 12160:use:shop_booster:0 12500:dump 12512:canuse:pack_cards:1 12514:use:pack_cards:1 12960:dump 13400:skip 13580:dump
+13600:shop:p_standard_jumbo_1 13660:use:shop_booster:0 14000:dump 14014:skip 14900:skip 15080:dump
+15100:shop:p_standard_mega_1 15160:use:shop_booster:0 15500:dump 15512:canuse:pack_cards:1 15514:use:pack_cards:1 15960:dump 15972:canuse:pack_cards:1 15974:use:pack_cards:1 16400:skip 16580:dump
+16600:shop:p_buffoon_normal_1 16660:use:shop_booster:0 17000:dump 17012:canuse:pack_cards:1 17014:use:pack_cards:1 17460:dump 17900:skip 18080:dump
+18100:shop:p_buffoon_jumbo_1 18160:use:shop_booster:0 18500:dump 18514:skip 19400:skip 19580:dump
+19600:shop:p_buffoon_mega_1 19660:use:shop_booster:0 20000:dump 20012:canuse:pack_cards:1 20014:use:pack_cards:1 20460:dump 20472:canuse:pack_cards:1 20474:use:pack_cards:1 20900:skip 21080:dump
+21100:shop:p_spectral_normal_1 21160:use:shop_booster:0 21500:dump 21510:hl:hand:1 21512:canuse:pack_cards:1 21514:use:pack_cards:1 21960:dump 22400:skip 22580:dump
+22600:shop:p_spectral_jumbo_1 22660:use:shop_booster:0 23000:dump 23014:skip 23900:skip 24080:dump
+24100:shop:p_spectral_mega_1 24160:use:shop_booster:0 24500:dump 24510:hl:hand:1 24512:canuse:pack_cards:1 24514:use:pack_cards:1 24960:dump 24968:unhl:hand 24970:hl:hand:2 24972:canuse:pack_cards:1 24974:use:pack_cards:1 25400:skip 25580:dump

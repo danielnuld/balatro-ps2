@@ -1,0 +1,21 @@
+1250:start:ENH 1600:blind 1880:chips:100000
+1900:unhl:hand 1902:give:c_chariot 1910:hl:hand:8 1914:use:consumeables:0
+2320:unhl:hand 2322:give:c_devil 2330:hl:hand:7 2334:use:consumeables:0
+2740:unhl:hand 2742:give:c_justice 2750:hl:hand:1 2754:use:consumeables:0
+3160:unhl:hand 3162:give:c_magician 3170:hl:hand:2 3174:use:consumeables:0
+3580:unhl:hand 3582:give:c_empress 3590:hl:hand:3 3594:use:consumeables:0
+4000:unhl:hand 4002:give:c_heirophant 4010:hl:hand:4 4014:use:consumeables:0
+4420:unhl:hand 4422:give:c_tower 4430:hl:hand:5 4434:use:consumeables:0
+4840:unhl:hand 4842:give:c_lovers 4850:hl:hand:6 4854:use:consumeables:0
+5260:unhl:hand 5262:give:c_talisman 5270:hl:hand:1 5274:use:consumeables:0
+5680:unhl:hand 5682:give:c_deja_vu 5690:hl:hand:2 5694:use:consumeables:0
+6100:unhl:hand 6102:give:c_trance 6110:hl:hand:7 6114:use:consumeables:0
+6520:unhl:hand 6522:give:c_medium 6530:hl:hand:3 6534:use:consumeables:0
+6940:unhl:hand 6942:give:c_aura 6950:hl:hand:4 6954:use:consumeables:0
+7360:unhl:hand 7362:give:c_medium 7370:hl:hand:6 7374:use:consumeables:0
+7780:dump 7782:set:dollars:20 7784:unhl:hand 7790:hl:hand:3:6 7794:discard 8080:dump
+8100:unhl:hand 8110:hl:hand:1:2:3:4:5 8114:play 9000:dump
+9020:unhl:hand 9030:hl:hand:1:2:3:4:5 9034:play 9920:dump
+9940:unhl:hand 9950:hl:hand:1:2:3 9954:discard 10240:dump
+10260:unhl:hand 10270:hl:hand:1:2:3:4:5 10274:play 11460:dump
+11481:chips:1 11480:unhl:hand 11490:hl:hand:1:2:3:4:5 11494:play 12980:dump

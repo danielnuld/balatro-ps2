@@ -1,0 +1,1 @@
+3100:a 3200:a 3600:dpup 3650:dpright 3700:dpright 3750:dpdown 3800:dpleft 3850:dpdown 3900:dpright 3950:dpright 4000:dpup 4050:dpup 4100:dpleft 4150:dpleft 4200:dpup 4250:dpright 4300:dpright 4350:dpright

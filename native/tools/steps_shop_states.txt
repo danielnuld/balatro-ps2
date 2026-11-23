@@ -1,0 +1,24 @@
+1250:start:STATES
+1500:give:c_pluto 1510:canuse:consumeables:0 1512:use:consumeables:0 2080:dump
+2100:give:c_hermit 2110:canuse:consumeables:0 2112:use:consumeables:0 2480:dump
+2500:give:c_high_priestess 2510:canuse:consumeables:0 2512:use:consumeables:0 2880:dump
+2900:give:c_emperor 2910:canuse:consumeables:0 2912:use:consumeables:0 3280:dump
+3300:sell:consumeables:1 3330:sell:consumeables:1 3360:sell:consumeables:1 3390:sell:consumeables:1 3450:dump 3460:give:j_joker 3470:blind
+3800:win
+4500:give:c_venus 4510:canuse:consumeables:0 4512:use:consumeables:0 5080:dump
+5100:give:c_temperance 5110:canuse:consumeables:0 5112:use:consumeables:0 5480:dump
+5500:give:c_judgement 5510:canuse:consumeables:0 5512:use:consumeables:0 5880:dump
+5900:cash 6200:money:100 6250:dump
+6300:shop:p_arcana_mega_1 6360:use:shop_booster:0 6700:dump
+6720:give:c_mercury 6730:canuse:consumeables:0 6732:use:consumeables:0 7300:dump
+7320:give:c_magician 7326:unhl:hand 7328:hl:hand:1:2 7330:canuse:consumeables:0 7332:use:consumeables:0 7700:dump
+7720:give:c_wheel_of_fortune 7730:canuse:consumeables:0 7732:use:consumeables:0 8100:dump
+8120:sell:jokers:1 8270:dump 8280:unhl:hand 8282:hl:hand:3 8284:use:pack_cards:1 8720:dump 8730:skip 9120:dump
+9170:shop:p_celestial_mega_1 9230:use:shop_booster:0 9570:dump
+9590:give:c_hermit 9600:canuse:consumeables:0 9602:use:consumeables:0 9970:dump
+9990:give:c_earth 10000:canuse:consumeables:0 10002:use:consumeables:0 10570:dump
+10590:use:pack_cards:1 11190:dump 11200:skip 11590:dump
+11640:shop:p_buffoon_mega_1 11700:use:shop_booster:0 12040:dump
+12060:give:c_ankh 12070:canuse:consumeables:0 12072:use:consumeables:0 12540:dump
+12560:give:c_hex 12570:canuse:consumeables:0 12572:use:consumeables:0 13040:dump
+13060:use:pack_cards:1 13660:dump 13670:skip 14060:dump

@@ -1,0 +1,42 @@
+1250:start:VOUCH 1600:blind 2100:win 2700:cash 3000:money:2000 3050:dump
+3100:shop:v_overstock_norm 3160:use:shop_vouchers:0 3480:dump
+3500:shop:v_overstock_plus 3560:use:shop_vouchers:0 3880:dump
+3900:shop:v_clearance_sale 3960:use:shop_vouchers:0 4280:dump
+4300:shop:v_liquidation 4360:use:shop_vouchers:0 4680:dump
+4700:shop:v_hone 4760:use:shop_vouchers:0 5080:dump
+5100:shop:v_glow_up 5160:use:shop_vouchers:0 5480:dump
+5500:shop:v_reroll_surplus 5560:use:shop_vouchers:0 5880:dump
+5900:shop:v_reroll_glut 5960:use:shop_vouchers:0 6280:dump
+6300:shop:v_crystal_ball 6360:use:shop_vouchers:0 6680:dump
+6700:shop:v_omen_globe 6760:use:shop_vouchers:0 7080:dump
+7100:shop:v_telescope 7160:use:shop_vouchers:0 7480:dump
+7500:shop:v_observatory 7560:use:shop_vouchers:0 7880:dump
+7900:shop:v_grabber 7960:use:shop_vouchers:0 8280:dump
+8300:shop:v_nacho_tong 8360:use:shop_vouchers:0 8680:dump
+8700:shop:v_wasteful 8760:use:shop_vouchers:0 9080:dump
+9100:shop:v_recyclomancy 9160:use:shop_vouchers:0 9480:dump
+9500:shop:v_tarot_merchant 9560:use:shop_vouchers:0 9880:dump
+9900:shop:v_tarot_tycoon 9960:use:shop_vouchers:0 10280:dump
+10300:shop:v_planet_merchant 10360:use:shop_vouchers:0 10680:dump
+10700:shop:v_planet_tycoon 10760:use:shop_vouchers:0 11080:dump
+11100:shop:v_seed_money 11160:use:shop_vouchers:0 11480:dump
+11500:shop:v_money_tree 11560:use:shop_vouchers:0 11880:dump
+11900:shop:v_blank 11960:use:shop_vouchers:0 12280:dump
+12300:shop:v_antimatter 12360:use:shop_vouchers:0 12680:dump
+12700:shop:v_magic_trick 12760:use:shop_vouchers:0 13080:dump
+13100:shop:v_illusion 13160:use:shop_vouchers:0 13480:dump
+13500:shop:v_hieroglyph 13560:use:shop_vouchers:0 13880:dump
+13900:shop:v_petroglyph 13960:use:shop_vouchers:0 14280:dump
+14300:shop:v_directors_cut 14360:use:shop_vouchers:0 14680:dump
+14700:shop:v_retcon 14760:use:shop_vouchers:0 15080:dump
+15100:shop:v_paint_brush 15160:use:shop_vouchers:0 15480:dump
+15500:shop:v_palette 15560:use:shop_vouchers:0 15880:dump
+15900:reroll 16030:dump
+16050:reroll 16180:dump
+16200:reroll 16330:dump
+16350:reroll 16480:dump
+16500:reroll 16630:dump
+16650:reroll 16780:dump
+16800:reroll 16930:dump
+16950:reroll 17080:dump
+17100:leave 17400:dump 17420:blind 17800:dump

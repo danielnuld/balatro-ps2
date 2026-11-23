@@ -1,0 +1,14 @@
+1250:start:PLANET 1600:blind 
+1900:unhl:hand 1902:give:c_mercury 1912:canuse:consumeables:0 1914:use:consumeables:0 2480:dump
+2500:unhl:hand 2502:give:c_venus 2512:canuse:consumeables:0 2514:use:consumeables:0 3080:dump
+3100:unhl:hand 3102:give:c_earth 3112:canuse:consumeables:0 3114:use:consumeables:0 3680:dump
+3700:unhl:hand 3702:give:c_mars 3712:canuse:consumeables:0 3714:use:consumeables:0 4280:dump
+4300:unhl:hand 4302:give:c_jupiter 4312:canuse:consumeables:0 4314:use:consumeables:0 4880:dump
+4900:unhl:hand 4902:give:c_saturn 4912:canuse:consumeables:0 4914:use:consumeables:0 5480:dump
+5500:unhl:hand 5502:give:c_uranus 5512:canuse:consumeables:0 5514:use:consumeables:0 6080:dump
+6100:unhl:hand 6102:give:c_neptune 6112:canuse:consumeables:0 6114:use:consumeables:0 6680:dump
+6700:unhl:hand 6702:give:c_pluto 6712:canuse:consumeables:0 6714:use:consumeables:0 7280:dump
+7300:unhl:hand 7302:give:c_planet_x 7312:canuse:consumeables:0 7314:use:consumeables:0 7880:dump
+7900:unhl:hand 7902:give:c_ceres 7912:canuse:consumeables:0 7914:use:consumeables:0 8480:dump
+8500:unhl:hand 8502:give:c_eris 8512:canuse:consumeables:0 8514:use:consumeables:0 9080:dump
+9100:unhl:hand 9102:give:c_black_hole 9112:canuse:consumeables:0 9114:use:consumeables:0 9680:dump

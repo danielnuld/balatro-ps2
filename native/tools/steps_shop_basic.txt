@@ -1,0 +1,10 @@
+1250:start:SHOPA 1600:blind 2100:win 2700:cash 3000:dump
+3050:buy:shop_jokers:1 3150:dump 3200:buy:shop_jokers:1 3300:dump
+3350:sell:jokers:1 3450:dump 3500:sell:consumeables:1 3600:dump
+3650:money:100 3700:reroll 3800:dump 3850:reroll 3950:dump 4000:reroll 4100:dump
+4150:buy:shop_jokers:1 4250:buy:shop_jokers:1 4350:dump
+4400:give:j_joker 4410:give:j_greedy_joker 4420:give:j_lusty_joker 4430:give:j_wrathful_joker 4440:give:j_gluttenous_joker
+4450:shop:j_blueprint 4550:buy:shop_jokers:1 4650:dump
+4700:shop:c_base:H_A 4720:shop:m_glass:S_K 4800:dump 4850:buy:shop_jokers:2 4950:buy:shop_jokers:2 5050:dump
+5100:buy:shop_vouchers:1 5200:dump
+5300:leave 5600:dump

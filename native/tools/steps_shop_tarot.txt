@@ -1,0 +1,23 @@
+1250:start:TAROT 1600:blind 1850:give:j_joker 1860:give:j_greedy_joker
+1900:unhl:hand 1902:give:c_magician 1910:hl:hand:1:2 1912:canuse:consumeables:0 1914:use:consumeables:0 2240:dump
+2260:unhl:hand 2262:give:c_fool 2272:canuse:consumeables:0 2274:use:consumeables:0 2600:dump
+2620:unhl:hand 2622:give:c_high_priestess 2632:canuse:consumeables:0 2634:use:consumeables:0 2960:dump
+2980:unhl:hand 2982:give:c_empress 2990:hl:hand:3:4 2992:canuse:consumeables:0 2994:use:consumeables:0 3320:dump
+3340:unhl:hand 3342:give:c_emperor 3352:canuse:consumeables:0 3354:use:consumeables:0 3680:dump
+3700:unhl:hand 3702:give:c_heirophant 3710:hl:hand:5:6 3712:canuse:consumeables:0 3714:use:consumeables:0 4040:dump
+4060:unhl:hand 4062:give:c_lovers 4070:hl:hand:7 4072:canuse:consumeables:0 4074:use:consumeables:0 4400:dump
+4420:unhl:hand 4422:give:c_chariot 4430:hl:hand:8 4432:canuse:consumeables:0 4434:use:consumeables:0 4760:dump
+4780:unhl:hand 4782:give:c_justice 4790:hl:hand:1 4792:canuse:consumeables:0 4794:use:consumeables:0 5120:dump
+5140:unhl:hand 5142:give:c_hermit 5152:canuse:consumeables:0 5154:use:consumeables:0 5480:dump
+5500:unhl:hand 5502:give:c_wheel_of_fortune 5512:canuse:consumeables:0 5514:use:consumeables:0 5840:dump
+5860:unhl:hand 5862:give:c_strength 5870:hl:hand:2:3 5872:canuse:consumeables:0 5874:use:consumeables:0 6200:dump
+6220:unhl:hand 6222:give:c_temperance 6232:canuse:consumeables:0 6234:use:consumeables:0 6560:dump
+6580:unhl:hand 6582:give:c_devil 6590:hl:hand:4 6592:canuse:consumeables:0 6594:use:consumeables:0 6920:dump
+6940:unhl:hand 6942:give:c_tower 6950:hl:hand:5 6952:canuse:consumeables:0 6954:use:consumeables:0 7280:dump
+7300:unhl:hand 7302:give:c_star 7310:hl:hand:1:2:3 7312:canuse:consumeables:0 7314:use:consumeables:0 7640:dump
+7660:unhl:hand 7662:give:c_moon 7670:hl:hand:4:5:6 7672:canuse:consumeables:0 7674:use:consumeables:0 8000:dump
+8020:unhl:hand 8022:give:c_sun 8030:hl:hand:6:7:8 8032:canuse:consumeables:0 8034:use:consumeables:0 8360:dump
+8380:unhl:hand 8382:give:c_judgement 8392:canuse:consumeables:0 8394:use:consumeables:0 8720:dump
+8740:unhl:hand 8742:give:c_world 8750:hl:hand:1:3:5 8752:canuse:consumeables:0 8754:use:consumeables:0 9080:dump
+9100:unhl:hand 9102:give:c_death 9110:hl:hand:1:2 9112:canuse:consumeables:0 9114:use:consumeables:0 9440:dump
+9460:unhl:hand 9462:give:c_hanged_man 9470:hl:hand:7:8 9472:canuse:consumeables:0 9474:use:consumeables:0 9800:dump

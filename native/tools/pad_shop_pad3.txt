@@ -1,0 +1,1 @@
+3100:a 3200:a 4170:dpright 4230:dpup 4290:a 4350:dpdown 4410:dpleft 4470:rightshoulder 4990:dpup 5050:a 5110:dpright 5170:a 5230:dpdown 5290:dpright 5350:rightshoulder 6480:rightshoulder 7510:dpright 7570:rightshoulder 8800:dpright 8860:y

@@ -1,0 +1,1 @@
+@1960,40: dpright dpright dpright hold:a:130 w1 dpleft dpleft w2 dpright a dpright a dpright a x w1 y w1 b dpdown a dpright a dpup leftshoulder w1 dpright hold:a:130 w1 dpright dpright w2 rightshoulder dpleft dpup dpup hold:a:90 w1 dpleft w2

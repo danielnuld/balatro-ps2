@@ -1,0 +1,1 @@
+2120:dpleft 2180:dpleft 2240:a 2300:dpleft 2360:a 2420:dpright 2480:dpup 2540:rightshoulder 2960:dpup 3020:rightshoulder 3700:dpup 3760:dpup 3820:leftshoulder 4040:dpdown 4100:a 4160:dpleft 4220:a 4280:dpleft 4340:a 4400:y 4820:dpleft 4880:a 4940:dpleft 5000:a 5060:x

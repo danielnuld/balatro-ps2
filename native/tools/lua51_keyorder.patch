@@ -1,0 +1,41 @@
+--- lua.orig/src/lobject.h	2026-11-21 22:00:20.771483124 -0700
++++ lua/src/lobject.h	2026-11-21 22:00:34.178217777 -0700
+@@ -332,6 +332,7 @@
+ typedef struct Node {
+   TValue i_val;
+   TKey i_key;
++  unsigned int seq;  /* dump tool: when the key was first set (definition order) */
+ } Node;
+ 
+ 
+--- lua.orig/src/ltable.c	2026-11-21 22:00:20.771652558 -0700
++++ lua/src/ltable.c	2026-11-21 22:00:34.184044038 -0700
+@@ -72,6 +72,8 @@
+ 
+ #define dummynode		(&dummynode_)
+ 
++static unsigned int luaH_seq, luaH_keepseq;  /* dump tool: see Node.seq */
++
+ static const Node dummynode_ = {
+   {{NULL}, LUA_TNIL},  /* value */
+   {{{NULL}, LUA_TNIL, NULL}}  /* key */
+@@ -317,7 +319,11 @@
+   for (i = twoto(oldhsize) - 1; i >= 0; i--) {
+     Node *old = nold+i;
+     if (!ttisnil(gval(old)))
++    {
++      luaH_keepseq = old->seq;  /* a rehash must not renumber the keys */
+       setobjt2t(L, luaH_set(L, t, key2tval(old)), gval(old));
++      luaH_keepseq = 0;
++    }
+   }
+   if (nold != dummynode)
+     luaM_freearray(L, nold, twoto(oldhsize), Node);  /* free old array */
+@@ -423,6 +429,7 @@
+     }
+   }
+   gkey(mp)->value = key->value; gkey(mp)->tt = key->tt;
++  mp->seq = luaH_keepseq ? luaH_keepseq : ++luaH_seq;
+   luaC_barriert(L, t, key);
+   lua_assert(ttisnil(gval(mp)));
+   return gval(mp);

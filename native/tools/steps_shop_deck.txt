@@ -1,0 +1,20 @@
+1250:start:DECKS:1:KEY 1600:blind 2000:dump 2100:win 2700:cash 3000:money:1000 3050:dump
+3100:reroll 3170:dump
+3180:reroll 3250:dump
+3260:reroll 3330:dump
+3340:reroll 3410:dump
+3420:reroll 3490:dump
+3500:reroll 3570:dump
+3580:reroll 3650:dump
+3660:reroll 3730:dump
+3740:reroll 3810:dump
+3820:reroll 3890:dump
+3900:reroll 3970:dump
+3980:reroll 4050:dump
+4060:reroll 4130:dump
+4140:reroll 4210:dump
+4220:reroll 4290:dump
+4300:shop:p_celestial_normal_1 4360:use:shop_booster:0 4700:dump 4714:skip 5100:dump
+5150:shop:p_arcana_jumbo_1 5210:use:shop_booster:0 5550:dump 5564:skip 5950:dump
+6000:shop:p_spectral_mega_1 6060:use:shop_booster:0 6400:dump 6414:skip 6800:dump
+6850:leave 7150:dump

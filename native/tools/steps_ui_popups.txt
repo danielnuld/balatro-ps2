@@ -1,0 +1,6 @@
+1250:start:UIPOP 1600:blind 1900:popall:Joker 1910:popall:Tarot 1920:popall:Voucher 1930:popall:Booster 1940:popall:Enhanced
+1950:unlockall
+2000:popall:Joker 2010:popall:Tarot 2020:popall:Planet 2030:popall:Spectral 2040:popall:Voucher 2050:popall:Booster 2060:popall:Enhanced 2070:popall:Default
+2100:popall:Joker:foil 2110:popall:Joker:holo 2120:popall:Joker:polychrome 2130:popall:Joker:negative 2140:popall:Joker:eternal 2150:popall:Joker:perishable 2160:popall:Joker:rental 2170:popall:Joker:debuff
+2200:popall:Enhanced:Red 2210:popall:Enhanced:Blue 2220:popall:Enhanced:Gold 2230:popall:Enhanced:Purple 2240:popall:Enhanced:foil 2250:popall:Enhanced:debuff 2260:popall:Tarot:negative
+2300:ui:HUD 2300:ui:buttons 2300:ui:HUD_blind

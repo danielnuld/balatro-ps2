@@ -1,0 +1,17 @@
+1250:start:SHOTS:8 1600:blind
+1900:unhl:hand 1902:give:c_magician 1910:hl:hand:1:2 1914:use:consumeables:0
+2260:unhl:hand 2262:give:c_chariot 2270:hl:hand:3 2274:use:consumeables:0
+2620:unhl:hand 2622:give:c_devil 2630:hl:hand:4 2634:use:consumeables:0
+2980:unhl:hand 2982:give:c_justice 2990:hl:hand:5 2994:use:consumeables:0
+3340:unhl:hand 3342:give:c_tower 3350:hl:hand:6 3354:use:consumeables:0
+3700:unhl:hand 3702:give:c_talisman 3710:hl:hand:1 3714:use:consumeables:0
+4060:unhl:hand 4062:give:c_deja_vu 4070:hl:hand:2 4074:use:consumeables:0
+4420:unhl:hand 4422:give:c_trance 4430:hl:hand:3 4434:use:consumeables:0
+4780:unhl:hand 4782:give:c_medium 4790:hl:hand:4 4794:use:consumeables:0
+5140:unhl:hand 5142:give:c_aura 5150:hl:hand:5 5154:use:consumeables:0
+5500:win 6200:cash 6500:money:100
+6650:shop:p_arcana_normal_1 6710:use:shop_booster:0 7050:hover:pack_cards:1 7110:skip
+7500:shop:p_celestial_jumbo_1 7560:use:shop_booster:0 7900:hover:pack_cards:1 7960:skip
+8350:shop:p_standard_mega_1 8410:use:shop_booster:0 8750:hover:pack_cards:1 8810:skip
+9200:shop:p_buffoon_normal_1 9260:use:shop_booster:0 9600:hover:pack_cards:1 9660:skip
+10050:shop:p_spectral_normal_1 10110:use:shop_booster:0 10450:hover:pack_cards:1 10510:skip

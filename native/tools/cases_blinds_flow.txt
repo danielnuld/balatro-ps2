@@ -1,0 +1,13 @@
+lose 4500 HAND=pl
+loseu 4500 HAND=pl UNSEED=1
+lose_boss 5000 BOSS=bl_wall PLAN=s HAND=l
+needle_w 5500 BOSS=bl_needle PLAN=s HAND=w
+chicot 6500 JOKERS=j_chicot BOSS=bl_manacle PLAN=s HAND=pdw
+chicot_water 6500 JOKERS=j_chicot BOSS=bl_water PLAN=s HAND=pdw
+luchador 6500 JOKERS=j_luchador,j_joker BOSS=bl_water PLAN=s HAND=pSpdw
+luchador_heart 6500 JOKERS=j_luchador,j_joker,j_jolly BOSS=bl_final_heart PLAN=s HAND=ppSpdw
+win8 9000 ANTE=8 PLAN=s HAND=w BOSS=bl_final_vessel
+win8u 9000 ANTE=8 PLAN=s HAND=w UNSEED=1
+endless 22000 ANTE=7 PLAN=s HAND=w
+stake8 9000 STAKE=8 HAND=pdw
+stake5 6000 STAKE=5 PLAN=s HAND=pdw

@@ -1,0 +1,7 @@
+1250:start:UISHOT 1600:blind 1900:give:j_joker 1902:give:j_blueprint 1904:give:j_hologram 1906:give:c_fool 1910:ed:jokers:1:polychrome 1912:ed:jokers:2:negative 1914:stick:jokers:3:eternal 1916:ed:jokers:3:holo 1920:hl:hand:1:2:3:4
+2000:hover:jokers:2 2045:unhover:jokers:2
+2050:f:run_info 2115:f:exit_overlay_menu
+2130:f:deck_info 2195:f:exit_overlay_menu
+2210:f:options 2275:f:settings 2335:f:exit_overlay_menu
+2350:chips:1.5e13 2350:handlvl:Flush:5
+2420:win

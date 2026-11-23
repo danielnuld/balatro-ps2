@@ -1,0 +1,143 @@
+# name|environment of the case (see tools/hook_jokers.lua). Run by tools/jokers_cases.sh.
+# round 1's default actions: 0 P straight flush, 1 D three faces, 2 U (Pluto), 3 P full house, 4 D one card, 5 U (Hermit),
+# 6 P four tens, 7 D five cards, 8 P pair (the last hand).
+# ---- enhancements, played (5) and held (2)
+enh_bonus|ACT0=P:H_A+m_bonus,H_2+m_bonus,H_3+m_bonus,H_4+m_bonus,H_5+m_bonus|S_K+m_bonus,S_Q+m_bonus
+enh_mult|ACT0=P:H_A+m_mult,H_2+m_mult,H_3+m_mult,H_4+m_mult,H_5+m_mult|S_K+m_mult,S_Q+m_mult
+enh_wild|ACT0=P:H_A+m_wild,S_9+m_wild,D_3+m_wild,C_4+m_wild,H_5+m_wild|S_K+m_wild,S_Q+m_wild
+enh_glass|ACT0=P:H_A+m_glass,H_2+m_glass,H_3+m_glass,H_4+m_glass,H_5+m_glass|S_K+m_glass,S_Q+m_glass ACT3=P:S_K+m_glass,C_K+m_glass,D_K+m_glass,H_Q+m_glass,C_Q+m_glass
+enh_steel|ACT0=P:H_A+m_steel,H_2+m_steel,H_3+m_steel,H_4+m_steel,H_5+m_steel|S_K+m_steel,S_Q+m_steel,S_J+m_steel
+enh_stone|ACT0=P:H_A+m_stone,H_2+m_stone,H_3+m_stone,H_4,H_5|S_K+m_stone,S_Q+m_stone
+enh_gold|ACT0=P:H_A+m_gold,H_2+m_gold,H_3+m_gold,H_4+m_gold,H_5+m_gold|S_K+m_gold,S_Q+m_gold ACT8=P:S_6,D_6,C_9|S_K+m_gold,S_Q+m_gold,H_2+m_gold
+enh_lucky|ACT0=P:H_A+m_lucky,H_2+m_lucky,H_3+m_lucky,H_4+m_lucky,H_5+m_lucky ACT3=P:S_K+m_lucky,C_K+m_lucky,D_K+m_lucky,H_Q+m_lucky,C_Q+m_lucky ACT6=P:S_T+m_lucky,H_T+m_lucky,D_T+m_lucky,C_T+m_lucky
+enh_mix|ACT0=P:H_A+m_bonus+foil+Red,H_2+m_mult+holo+Gold,H_3+m_wild+polychrome,H_4+m_glass+Red,H_5+m_lucky+Gold|S_K+m_steel+Red,S_Q+m_gold+Blue,S_J+m_stone
+# ---- editions on playing cards and on jokers
+ed_foil|ACT0=P:H_A+foil,H_2+foil,H_3,H_4,H_5|S_K+foil
+ed_holo|ACT0=P:H_A+holo,H_2+holo,H_3,H_4,H_5|S_K+holo
+ed_polychrome|ACT0=P:H_A+polychrome,H_2+polychrome,H_3,H_4,H_5|S_K+polychrome
+ed_negative|ACT0=P:H_A+negative,H_2+negative,H_3,H_4,H_5|S_K+negative
+jed_foil|CASE=j_joker+foil
+jed_holo|CASE=j_joker+holo
+jed_polychrome|CASE=j_joker+polychrome
+jed_negative|CASE=j_joker+negative
+jed_all|CASE=j_joker+foil,j_stencil+negative,j_jolly+holo,j_baron+polychrome,j_blueprint+negative,j_mime+foil
+# ---- seals
+seal_gold|ACT0=P:H_A+Gold,H_2+Gold,H_3,H_4,H_5|S_K+Gold
+seal_red|ACT0=P:H_A+Red,H_2+Red,H_3,H_4,H_5|S_K+Red+m_steel,S_Q+Red+m_gold ACT8=P:S_6+Red,D_6,C_9|S_K+m_gold+Red,S_Q+Blue+Red
+seal_blue|ACT8=P:S_6,D_6,C_9|S_K+Blue,S_Q+Blue,H_2+Blue
+seal_blue_played|ACT0=P:H_A+Blue,H_2+Blue,H_3,H_4,H_5|S_K+Blue
+seal_purple|ACT1=D:H_J+Purple,C_J+Purple,D_K+Purple ACT4=D:H_2+Purple
+# ---- every poker hand
+hand_flush_five|ACT0=P:S_A,S_A,S_A,S_A,S_A
+hand_flush_house|ACT0=P:S_K,S_K,S_K,S_Q,S_Q
+hand_five_kind|ACT0=P:S_A,H_A,D_A,C_A,S_A
+hand_straight_flush|ACT0=P:D_9,D_T,D_J,D_Q,D_K
+hand_royal|ACT0=P:C_T,C_J,C_Q,C_K,C_A
+hand_four_kind|ACT0=P:S_7,H_7,D_7,C_7,S_2
+hand_full_house|ACT0=P:S_3,H_3,D_3,C_8,S_8
+hand_flush|ACT0=P:H_A,H_3,H_7,H_9,H_J
+hand_straight|ACT0=P:S_5,H_6,D_7,C_8,S_9
+hand_straight_wheel|ACT0=P:S_A,H_2,D_3,C_4,S_5
+hand_straight_ace|ACT0=P:S_T,H_J,D_Q,C_K,S_A
+hand_no_wrap|ACT0=P:S_Q,H_K,D_A,C_2,S_3
+hand_three_kind|ACT0=P:S_9,H_9,D_9,C_4,S_2
+hand_two_pair|ACT0=P:S_9,H_9,D_4,C_4,S_2
+hand_pair|ACT0=P:S_9,H_9,D_5,C_4,S_2
+hand_high|ACT0=P:S_9,H_J,D_5,C_4,S_2
+hand_high1|ACT0=P:S_9
+hand_pair2|ACT0=P:S_9,H_9
+hand_three3|ACT0=P:S_9,H_9,D_9
+hand_four4|ACT0=P:S_9,H_9,D_9,C_9
+hand_two_pair4|ACT0=P:S_9,H_9,D_4,C_4
+hand_stone5|ACT0=P:S_9+m_stone,H_9+m_stone,D_9+m_stone,C_9+m_stone,S_2+m_stone
+hand_wild_flush|ACT0=P:S_9+m_wild,H_J,H_5,H_4,H_2
+# ---- jokers that change the hand detection
+four_fingers_straight|CASE=j_four_fingers ACT0=P:S_5,H_6,D_7,C_8,S_K
+four_fingers_flush|CASE=j_four_fingers ACT0=P:H_5,H_9,H_7,H_J,S_K
+four_fingers_sf|CASE=j_four_fingers ACT0=P:H_5,H_6,H_7,H_8,S_K
+shortcut|CASE=j_shortcut ACT0=P:S_2,H_4,D_6,C_8,S_T
+shortcut_four|CASE=j_shortcut,j_four_fingers ACT0=P:S_2,H_4,D_6,C_8,S_K
+smeared|CASE=j_smeared ACT0=P:H_5,D_9,H_7,D_J,D_K ACT3=P:S_K,C_K,S_3,C_Q,C_7
+splash|CASE=j_splash ACT0=P:S_9,H_J,D_5,C_4,S_2
+pareidolia|CASE=j_pareidolia,j_scary_face,j_smiley,j_photograph
+# ---- copying
+bp_joker|CASE=j_blueprint,j_joker
+bp_baron|CASE=j_blueprint,j_baron
+bp_dna|CASE=j_blueprint,j_dna ACT0=P:S_A
+bp_hack|CASE=j_blueprint,j_hack
+bp_mime|CASE=j_blueprint,j_mime ACT3=P:S_K,C_K,D_K,H_Q,C_Q|S_K+m_steel,S_Q+m_steel
+bp_chain|CASE=j_blueprint,j_blueprint,j_brainstorm,j_jolly
+bp_bs_loop|CASE=j_brainstorm,j_blueprint
+bs_joker|CASE=j_joker,j_brainstorm
+bs_triboulet|CASE=j_triboulet,j_brainstorm,j_blueprint,j_photograph
+bp_incompat|CASE=j_blueprint,j_stencil,j_brainstorm
+bp_green|CASE=j_blueprint,j_green_joker,j_brainstorm
+bp_space|CASE=j_blueprint,j_space,j_brainstorm
+bp_egg|CASE=j_blueprint,j_gift,j_egg,j_brainstorm
+# ---- retriggers
+retrig_hack|CASE=j_hack,j_wee,j_walkie_talkie
+retrig_sock|CASE=j_sock_and_buskin,j_scary_face,j_business
+retrig_dusk|CASE=j_dusk,j_joker
+retrig_chad|CASE=j_hanging_chad,j_photograph,j_scholar
+retrig_mime|CASE=j_mime,j_baron,j_shoot_the_moon ACT3=P:S_K,C_K,D_K,H_Q,C_Q|S_K+m_steel+Red,S_Q+m_gold+Red
+retrig_all|CASE=j_hack,j_hanging_chad,j_dusk,j_sock_and_buskin,j_selzer ACT0=P:H_A+Red,H_2+Red+m_glass,H_3+m_lucky,H_4+Red+m_mult,H_5+polychrome
+retrig_selzer|CASE=j_selzer,j_blueprint,j_hiker
+# ---- destroying cards
+destroy_sixth|CASE=j_sixth_sense ACT0=P:S_6
+destroy_sixth_bp|CASE=j_blueprint,j_sixth_sense CONS=c_pluto ACT0=P:S_6
+destroy_trading|CASE=j_trading ACT0=D:H_J
+destroy_glass|CASE=j_glass,j_oops,j_oops ACT0=P:H_A+m_glass,H_2+m_glass,H_3+m_glass,H_4+m_glass,H_5+m_glass
+destroy_dagger|CASE=j_ceremonial,j_joker,j_jolly
+destroy_dagger_eternal|CASE=j_ceremonial,j_joker+eternal
+destroy_madness|CASE=j_madness,j_joker,j_jolly+eternal
+destroy_canio|CASE=j_caino,j_trading,j_sixth_sense ACT0=D:H_J ACT1=P:S_6
+destroy_vampire|CASE=j_vampire,j_midas_mask ACT0=P:H_A+m_glass,H_2+m_bonus,H_3+m_stone,H_4+m_lucky,H_5
+destroy_erosion|CASE=j_erosion,j_sixth_sense,j_hologram CONS=c_pluto ACT0=P:S_6
+# ---- creating cards
+create_riff|CASE=j_riff_raff
+create_riff_full|CASE=j_riff_raff,j_joker,j_jolly,j_zany
+create_carto|CASE=j_cartomancer CONS=c_pluto
+create_certificate|CASE=j_certificate
+create_dna|CASE=j_dna ACT0=P:S_A+m_glass+polychrome+Red
+create_marble|CASE=j_marble,j_stone
+create_8ball|CASE=j_8_ball,j_oops,j_oops,j_oops ACT0=P:H_8,S_8,D_8,C_8,H_5 CONS=c_pluto
+create_seance|CASE=j_seance,j_superposition,j_vagabond CONS=c_pluto DOLLARS=3
+create_halluc|CASE=j_hallucination,j_oops
+create_perkeo|CASE=j_perkeo,j_constellation
+create_sup|CASE=j_superposition,j_blueprint CONS=c_pluto ACT0=P:S_A,H_2,D_3,C_4,S_5
+# ---- stickers
+stick_eternal|CASE=j_joker+eternal
+stick_perishable|CASE=j_joker+perishable,j_ride_the_bus+perishable
+stick_rental|CASE=j_joker+rental,j_jolly+rental
+stick_all|CASE=j_joker+eternal+rental,j_zany+perishable+rental,j_gift
+stick_stake|CASE=j_joker STAKE=8
+# ---- hands, discards, hand size
+size_all|CASE=j_juggler,j_drunkard,j_troubadour,j_merry_andy,j_turtle_bean
+stuntman|CASE=j_stuntman,j_burglar
+economy|CASE=j_golden,j_to_the_moon,j_rocket,j_cloud_9,j_egg ACT0=P:S_9,H_9,D_9,C_9
+delayed|CASE=j_delayed_grat ACT1=P:#5 ACT4=P:#5 ACT7=P:#5
+# ---- jokers the default actions do not fire
+mystic|CASE=j_mystic_summit,j_banner ACT0=D:#1 ACT1=D:#1 ACT2=D:#1 ACT3=D:#1
+loyalty|CASE=j_loyalty_card,j_burglar
+steel_stone|CASE=j_steel_joker,j_stone,j_ticket,j_glass,j_lucky_cat ACT0=P:H_A+m_steel,H_2+m_stone,H_3+m_gold,H_4+m_glass,H_5+m_lucky|S_K+m_steel,S_Q+m_stone,S_J+m_gold ACT3=P:S_K+m_gold,C_K+m_gold,D_K+m_glass,H_Q+m_glass,C_Q+m_lucky
+blackboard|CASE=j_blackboard ACT0=P:H_9|S_2,C_3,S_4,C_5,S_6,C_7,S_8 ACT3=P:H_9|S_2,C_3,S_4,C_5,S_6,C_7+m_wild,H_8
+card_sharp|CASE=j_card_sharp ACT3=P:H_A,H_2,H_3,H_4,H_5
+parking|CASE=j_reserved_parking,j_oops,j_raised_fist
+mail|CASE=j_mail ACT1=D:H_9,C_9,D_9
+lucky_cat|CASE=j_lucky_cat,j_oops,j_oops,j_oops ACT0=P:H_A+m_lucky,H_2+m_lucky,H_3+m_lucky,H_4+m_lucky,H_5+m_lucky
+baseball|CASE=j_baseball,j_mime,j_fibonacci,j_stencil
+diet_cola|CASE=j_diet_cola SELLJ=1
+swash|CASE=j_swashbuckler,j_joker,j_egg,j_gift
+campfire_j|CASE=j_campfire,j_joker SELLJ=2
+ticket|CASE=j_ticket ACT0=P:H_A+m_gold,H_2+m_gold,H_3,H_4,H_5
+bones|CASE=j_mr_bones BLIND=10000 NOWIN=1
+bones_lose|CASE=j_mr_bones BLIND=100000 NOWIN=1
+gameover|CASE=j_joker BLIND=100000 NOWIN=1
+idol|CASE=j_idol ACT0=P:D_2,D_2,H_2,D_3
+license|CASE=j_drivers_license ACT0=P:H_A+m_bonus,H_2+m_bonus,H_3+m_bonus,H_4+m_bonus,H_5+m_bonus|S_K+m_mult,S_Q+m_mult,S_J+m_mult ACT1=D:H_J+m_wild,C_J+m_wild,D_K+m_wild,H_7+m_wild,H_8+m_wild ACT3=P:S_K+m_gold,C_K+m_gold,D_K+m_gold,H_Q+m_gold,C_Q+m_gold|S_K+m_steel,S_Q+m_steel,S_J+m_steel
+perkeo|CASE=j_perkeo ACT5=P:#2
+throwback|CASE=j_throwback,j_luchador,j_matador,j_chicot SKIP=1
+skip_plain|CASE=j_joker SKIP=1
+luchador|CASE=j_luchador,j_chicot SKIP=1 SELLJ=1
+todo|CASE=j_todo_list ACT0=P:S_9,H_9 ACT3=P:S_9,H_J,D_5,C_4,S_2 ACT6=P:S_9,H_9,D_4,C_4 ACT8=P:S_9,H_9,D_9
+bonus_all|CASE=j_scary_face,j_abstract,j_supernova,j_ride_the_bus,j_blue_joker

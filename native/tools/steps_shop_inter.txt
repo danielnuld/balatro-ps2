@@ -1,0 +1,39 @@
+1250:start:INTER
+1400:give:j_credit_card
+1408:give:j_chaos
+1416:give:j_flash
+1424:give:j_astronomer
+1432:give:j_hallucination
+1440:give:j_red_card
+1448:give:j_perkeo
+1456:give:j_constellation
+1464:give:j_fortune_teller
+1472:give:j_gift
+1480:give:j_egg
+1488:give:j_diet_cola
+1496:give:j_campfire
+1504:give:j_swashbuckler
+1512:give:j_oops
+1520:give:j_cartomancer
+1528:give:j_ring_master
+1536:give:j_riff_raff
+1544:give:j_marble
+1552:give:j_certificate
+1560:give:j_burglar
+1568:give:j_to_the_moon
+1576:give:j_golden
+1584:give:j_cloud_9
+1592:give:j_rocket
+1600:give:j_satellite
+1700:blind 2100:dump 2200:win 3700:dump 3710:cash 4100:dump
+4150:reroll 4280:dump
+4300:reroll 4430:dump
+4450:reroll 4580:dump
+4600:shop:p_arcana_normal_1 4660:use:shop_booster:0 5000:dump 5010:hl:hand:1 5014:use:pack_cards:1 5500:skip 5700:dump
+5750:shop:p_celestial_jumbo_1 5810:use:shop_booster:0 6150:dump 6164:skip 6550:dump
+6600:shop:c_jupiter 6660:buy:shop_jokers:0 6800:dump 6810:use:consumeables:0 7300:dump
+7350:use:consumeables:1 7750:dump
+7800:give:c_hermit 7810:use:consumeables:0 8200:dump
+8250:give:c_judgement 8260:use:consumeables:0 8650:dump
+8700:sell:jokers:12 8850:dump 8860:sell:jokers:1 9000:dump 9010:sell:jokers:1 9150:dump
+9200:give:c_pluto 9220:leave 9600:dump 9610:use:consumeables:0 10100:dump 10120:blind 10600:dump

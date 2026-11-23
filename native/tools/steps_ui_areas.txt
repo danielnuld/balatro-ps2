@@ -1,0 +1,1 @@
+1250:start:UIAREA 1600:blind 2040:areaui:deck:peek_deck 2042:areaui:deck:area_uibox 2044:areaui:hand:area_uibox 2100:win 3000:cash 3100:areaui:shop_vouchers:area_uibox 3105:ui:HUD 3106:roundtext 3200:wingame 3260:f:exit_overlay_menu 3330:ui:HUD 3331:roundtext 3335:areaui:shop_vouchers:area_uibox

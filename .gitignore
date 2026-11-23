@@ -1,0 +1,14 @@
+# the user's copy of the game and everything made from it: never in git
+build/
+game/
+native/data/
+native/out/
+*.exe
+*.love
+*.iso
+*.elf
+*.log
+# local notes and tool settings
+devlog/
+openspec/
+__pycache__/
